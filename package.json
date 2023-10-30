@@ -1,0 +1,38 @@
+{
+  "name": "qui-veut-gagner-des-millions",
+  "private": true,
+  "version": "0.0.1",
+  "main": "main.js",
+  "author": "Adion",
+  "scripts": {
+    "dev": "concurrently \"node server.js\" \"vite --host 0.0.0.0\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@kyvg/vue3-notification": "^3.0.2",
+    "@mdi/font": "^7.3.67",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "chart.js": "^3.9.1",
+    "crypto-js": "^4.2.0",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "unplugin-vue-components": "^0.25.2",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue": "^3.3.4",
+    "vue-chart-3": "^3.1.8",
+    "vue-qrcode": "^2.2.0",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.3.22"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "concurrently": "^8.2.2",
+    "vite": "^4.4.0"
+  }
+}
